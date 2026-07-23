@@ -1,0 +1,536 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< com.leoni:server-rooms-platform >-------------------
+[INFO] Building server-rooms-platform 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.1.0:run (default-cli) > test-compile @ server-rooms-platform >>>
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ server-rooms-platform ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ server-rooms-platform ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ server-rooms-platform ---
+[INFO] skip non existing resourceDirectory C:\Users\raed\IdeaProjects\leoni-backend\server-rooms-platform\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ server-rooms-platform ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.1.0:run (default-cli) < test-compile @ server-rooms-platform <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.1.0:run (default-cli) @ server-rooms-platform ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/4.1.0/spring-boot-buildpack-platform-4.1.0.jar
+Progress (1): 0.9/333 kBProgress (1): 2.3/333 kBProgress (1): 3.6/333 kBProgress (1): 5.0/333 kBProgress (1): 6.4/333 kBProgress (1): 7.7/333 kBProgress (1): 9.1/333 kBProgress (1): 10/333 kB Progress (1): 12/333 kBProgress (1): 13/333 kBProgress (1): 15/333 kBProgress (1): 16/333 kBProgress (1): 17/333 kBProgress (1): 19/333 kBProgress (1): 20/333 kBProgress (1): 21/333 kBProgress (1): 23/333 kBProgress (1): 24/333 kBProgress (1): 25/333 kBProgress (1): 26/333 kBProgress (1): 27/333 kBProgress (1): 29/333 kBProgress (1): 30/333 kBProgress (1): 31/333 kBProgress (1): 33/333 kBProgress (1): 34/333 kBProgress (1): 36/333 kBProgress (1): 37/333 kBProgress (1): 38/333 kBProgress (1): 40/333 kBProgress (1): 41/333 kBProgress (1): 42/333 kBProgress (1): 44/333 kBProgress (1): 45/333 kBProgress (1): 46/333 kBProgress (1): 48/333 kBProgress (1): 49/333 kBProgress (1): 51/333 kBProgress (1): 52/333 kBProgress (1): 53/333 kBProgress (1): 55/333 kBProgress (1): 59/333 kBProgress (1): 63/333 kBProgress (1): 67/333 kBProgress (1): 72/333 kBProgress (1): 76/333 kBProgress (1): 80/333 kBProgress (1): 84/333 kBProgress (1): 89/333 kBProgress (1): 93/333 kBProgress (1): 97/333 kBProgress (1): 101/333 kBProgress (1): 105/333 kBProgress (1): 110/333 kBProgress (1): 114/333 kBProgress (1): 118/333 kBProgress (1): 122/333 kBProgress (1): 127/333 kBProgress (1): 131/333 kBProgress (1): 135/333 kBProgress (1): 139/333 kBProgress (1): 144/333 kBProgress (1): 148/333 kBProgress (1): 152/333 kBProgress (1): 156/333 kBProgress (1): 160/333 kBProgress (1): 164/333 kBProgress (1): 168/333 kBProgress (1): 173/333 kBProgress (1): 177/333 kBProgress (1): 181/333 kBProgress (1): 185/333 kBProgress (1): 189/333 kBProgress (1): 194/333 kBProgress (1): 198/333 kBProgress (1): 202/333 kBProgress (1): 206/333 kBProgress (1): 211/333 kBProgress (1): 215/333 kBProgress (1): 219/333 kBProgress (1): 223/333 kBProgress (1): 240/333 kBProgress (1): 256/333 kBProgress (1): 272/333 kBProgress (1): 287/333 kBProgress (1): 289/333 kBProgress (1): 305/333 kBProgress (1): 322/333 kBProgress (1): 333 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-buildpack-platform/4.1.0/spring-boot-buildpack-platform-4.1.0.jar (333 kB at 370 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.6.1/httpclient5-5.6.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/4.1.0/spring-boot-loader-tools-4.1.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.16.6/micrometer-observation-1.16.6.jar
+Progress (1): 7.7/953 kBProgress (1): 16/953 kB Progress (1): 24/953 kBProgress (1): 40/953 kBProgress (1): 57/953 kBProgress (1): 73/953 kBProgress (1): 90/953 kBProgress (1): 106/953 kBProgress (1): 122/953 kBProgress (1): 139/953 kBProgress (1): 155/953 kBProgress (1): 159/953 kBProgress (1): 175/953 kBProgress (1): 192/953 kBProgress (1): 208/953 kBProgress (1): 224/953 kBProgress (1): 241/953 kBProgress (1): 257/953 kBProgress (1): 274/953 kBProgress (1): 290/953 kBProgress (1): 306/953 kBProgress (1): 323/953 kBProgress (1): 339/953 kBProgress (1): 356/953 kBProgress (1): 372/953 kBProgress (1): 388/953 kBProgress (1): 405/953 kBProgress (2): 405/953 kB | 0.9/263 kBProgress (2): 405/953 kB | 2.3/263 kBProgress (2): 405/953 kB | 3.6/263 kBProgress (2): 405/953 kB | 5.0/263 kBProgress (2): 405/953 kB | 6.4/263 kBProgress (2): 405/953 kB | 7.7/263 kBProgress (2): 405/953 kB | 9.1/263 kBProgress (2): 405/953 kB | 10/263 kB Progress (2): 405/953 kB | 12/263 kBProgress (2): 405/953 kB | 13/263 kBProgress (2): 405/953 kB | 15/263 kBProgress (2): 405/953 kB | 16/263 kBProgress (2): 405/953 kB | 17/263 kBProgress (2): 405/953 kB | 19/263 kBProgress (2): 405/953 kB | 20/263 kBProgress (2): 405/953 kB | 21/263 kBProgress (2): 405/953 kB | 23/263 kBProgress (2): 405/953 kB | 24/263 kBProgress (2): 405/953 kB | 26/263 kBProgress (2): 405/953 kB | 27/263 kBProgress (2): 405/953 kB | 28/263 kBProgress (2): 405/953 kB | 29/263 kBProgress (2): 405/953 kB | 30/263 kBProgress (2): 405/953 kB | 31/263 kBProgress (2): 405/953 kB | 33/263 kBProgress (2): 405/953 kB | 34/263 kBProgress (2): 405/953 kB | 36/263 kBProgress (2): 405/953 kB | 37/263 kBProgress (2): 405/953 kB | 38/263 kBProgress (2): 405/953 kB | 40/263 kBProgress (3): 405/953 kB | 40/263 kB | 0.9/342 kBProgress (3): 405/953 kB | 40/263 kB | 2.3/342 kBProgress (3): 405/953 kB | 40/263 kB | 3.6/342 kBProgress (3): 405/953 kB | 40/263 kB | 5.0/342 kBProgress (3): 405/953 kB | 40/263 kB | 6.4/342 kBProgress (3): 405/953 kB | 40/263 kB | 7.7/342 kBProgress (3): 405/953 kB | 40/263 kB | 9.1/342 kBProgress (3): 405/953 kB | 40/263 kB | 10/342 kB Progress (3): 405/953 kB | 40/263 kB | 12/342 kBProgress (3): 405/953 kB | 40/263 kB | 13/342 kBProgress (3): 405/953 kB | 40/263 kB | 15/342 kBProgress (3): 405/953 kB | 40/263 kB | 16/342 kBProgress (3): 405/953 kB | 40/263 kB | 17/342 kBProgress (3): 405/953 kB | 40/263 kB | 19/342 kBProgress (3): 405/953 kB | 40/263 kB | 20/342 kBProgress (3): 405/953 kB | 40/263 kB | 21/342 kBProgress (3): 405/953 kB | 40/263 kB | 23/342 kBProgress (3): 405/953 kB | 41/263 kB | 23/342 kBProgress (3): 405/953 kB | 41/263 kB | 24/342 kBProgress (3): 405/953 kB | 42/263 kB | 24/342 kBProgress (3): 405/953 kB | 42/263 kB | 26/342 kBProgress (3): 405/953 kB | 44/263 kB | 26/342 kBProgress (3): 405/953 kB | 44/263 kB | 27/342 kBProgress (3): 405/953 kB | 44/263 kB | 28/342 kBProgress (3): 405/953 kB | 45/263 kB | 28/342 kBProgress (3): 405/953 kB | 45/263 kB | 30/342 kBProgress (3): 405/953 kB | 46/263 kB | 30/342 kBProgress (3): 405/953 kB | 46/263 kB | 31/342 kBProgress (3): 405/953 kB | 46/263 kB | 32/342 kBProgress (3): 405/953 kB | 48/263 kB | 32/342 kBProgress (3): 405/953 kB | 49/263 kB | 32/342 kBProgress (3): 405/953 kB | 51/263 kB | 32/342 kBProgress (3): 405/953 kB | 52/263 kB | 32/342 kBProgress (3): 405/953 kB | 52/263 kB | 34/342 kBProgress (3): 405/953 kB | 52/263 kB | 35/342 kBProgress (3): 405/953 kB | 53/263 kB | 35/342 kBProgress (3): 405/953 kB | 53/263 kB | 36/342 kBProgress (3): 405/953 kB | 55/263 kB | 36/342 kBProgress (3): 405/953 kB | 55/263 kB | 38/342 kBProgress (3): 405/953 kB | 59/263 kB | 38/342 kBProgress (3): 405/953 kB | 59/263 kB | 39/342 kBProgress (3): 405/953 kB | 59/263 kB | 41/342 kBProgress (3): 405/953 kB | 59/263 kB | 42/342 kBProgress (3): 405/953 kB | 59/263 kB | 43/342 kBProgress (3): 405/953 kB | 59/263 kB | 45/342 kBProgress (3): 405/953 kB | 59/263 kB | 46/342 kBProgress (3): 405/953 kB | 59/263 kB | 47/342 kBProgress (3): 405/953 kB | 59/263 kB | 49/342 kBProgress (3): 405/953 kB | 59/263 kB | 50/342 kBProgress (3): 405/953 kB | 59/263 kB | 52/342 kBProgress (3): 421/953 kB | 59/263 kB | 52/342 kBProgress (3): 421/953 kB | 59/263 kB | 53/342 kBProgress (3): 421/953 kB | 59/263 kB | 54/342 kBProgress (3): 421/953 kB | 59/263 kB | 56/342 kBProgress (3): 421/953 kB | 59/263 kB | 60/342 kBProgress (3): 437/953 kB | 59/263 kB | 60/342 kBProgress (3): 454/953 kB | 59/263 kB | 60/342 kBProgress (3): 470/953 kB | 59/263 kB | 60/342 kBProgress (3): 487/953 kB | 59/263 kB | 60/342 kBProgress (3): 503/953 kB | 59/263 kB | 60/342 kBProgress (3): 519/953 kB | 59/263 kB | 60/342 kBProgress (3): 536/953 kB | 59/263 kB | 60/342 kBProgress (3): 552/953 kB | 59/263 kB | 60/342 kBProgress (3): 552/953 kB | 63/263 kB | 60/342 kBProgress (3): 569/953 kB | 63/263 kB | 60/342 kBProgress (3): 569/953 kB | 67/263 kB | 60/342 kBProgress (3): 585/953 kB | 67/263 kB | 60/342 kBProgress (3): 585/953 kB | 72/263 kB | 60/342 kBProgress (3): 585/953 kB | 76/263 kB | 60/342 kBProgress (3): 585/953 kB | 80/263 kB | 60/342 kBProgress (3): 585/953 kB | 84/263 kB | 60/342 kBProgress (3): 585/953 kB | 89/263 kB | 60/342 kBProgress (3): 585/953 kB | 93/263 kB | 60/342 kBProgress (3): 585/953 kB | 97/263 kB | 60/342 kBProgress (3): 585/953 kB | 97/263 kB | 64/342 kBProgress (3): 585/953 kB | 101/263 kB | 64/342 kBProgress (3): 585/953 kB | 101/263 kB | 68/342 kBProgress (3): 585/953 kB | 101/263 kB | 73/342 kBProgress (3): 585/953 kB | 101/263 kB | 77/342 kBProgress (3): 585/953 kB | 101/263 kB | 81/342 kBProgress (3): 585/953 kB | 105/263 kB | 81/342 kBProgress (3): 585/953 kB | 105/263 kB | 85/342 kBProgress (3): 585/953 kB | 110/263 kB | 85/342 kBProgress (3): 585/953 kB | 110/263 kB | 89/342 kBProgress (3): 585/953 kB | 114/263 kB | 89/342 kBProgress (3): 585/953 kB | 118/263 kB | 89/342 kBProgress (3): 585/953 kB | 118/263 kB | 94/342 kBProgress (3): 585/953 kB | 122/263 kB | 94/342 kBProgress (3): 585/953 kB | 127/263 kB | 94/342 kBProgress (3): 585/953 kB | 127/263 kB | 98/342 kBProgress (3): 585/953 kB | 127/263 kB | 102/342 kBProgress (3): 585/953 kB | 127/263 kB | 106/342 kBProgress (3): 585/953 kB | 127/263 kB | 111/342 kBProgress (3): 601/953 kB | 127/263 kB | 111/342 kBProgress (3): 618/953 kB | 127/263 kB | 111/342 kBProgress (3): 634/953 kB | 127/263 kB | 111/342 kBProgress (3): 634/953 kB | 131/263 kB | 111/342 kBProgress (3): 634/953 kB | 135/263 kB | 111/342 kBProgress (3): 650/953 kB | 135/263 kB | 111/342 kBProgress (3): 650/953 kB | 135/263 kB | 115/342 kBProgress (3): 650/953 kB | 135/263 kB | 119/342 kBProgress (3): 650/953 kB | 135/263 kB | 123/342 kBProgress (3): 650/953 kB | 139/263 kB | 123/342 kBProgress (3): 650/953 kB | 143/263 kB | 123/342 kBProgress (3): 667/953 kB | 143/263 kB | 123/342 kBProgress (3): 667/953 kB | 148/263 kB | 123/342 kBProgress (3): 667/953 kB | 152/263 kB | 123/342 kBProgress (3): 683/953 kB | 152/263 kB | 123/342 kBProgress (3): 700/953 kB | 152/263 kB | 123/342 kBProgress (3): 716/953 kB | 152/263 kB | 123/342 kBProgress (3): 732/953 kB | 152/263 kB | 123/342 kBProgress (3): 749/953 kB | 152/263 kB | 123/342 kBProgress (3): 765/953 kB | 152/263 kB | 123/342 kBProgress (3): 765/953 kB | 152/263 kB | 127/342 kBProgress (3): 782/953 kB | 152/263 kB | 127/342 kBProgress (3): 782/953 kB | 156/263 kB | 127/342 kBProgress (3): 782/953 kB | 160/263 kB | 127/342 kBProgress (3): 782/953 kB | 164/263 kB | 127/342 kBProgress (3): 782/953 kB | 168/263 kB | 127/342 kBProgress (3): 782/953 kB | 168/263 kB | 131/342 kBProgress (3): 782/953 kB | 172/263 kB | 131/342 kBProgress (3): 782/953 kB | 177/263 kB | 131/342 kBProgress (3): 782/953 kB | 181/263 kB | 131/342 kBProgress (3): 782/953 kB | 181/263 kB | 136/342 kBProgress (3): 782/953 kB | 181/263 kB | 140/342 kBProgress (3): 782/953 kB | 185/263 kB | 140/342 kBProgress (3): 782/953 kB | 185/263 kB | 144/342 kBProgress (3): 782/953 kB | 185/263 kB | 148/342 kBProgress (3): 782/953 kB | 189/263 kB | 148/342 kBProgress (3): 782/953 kB | 189/263 kB | 152/342 kBProgress (3): 782/953 kB | 194/263 kB | 152/342 kBProgress (3): 782/953 kB | 198/263 kB | 152/342 kBProgress (3): 782/953 kB | 202/263 kB | 152/342 kBProgress (3): 782/953 kB | 206/263 kB | 152/342 kBProgress (3): 782/953 kB | 206/263 kB | 157/342 kBProgress (3): 782/953 kB | 210/263 kB | 157/342 kBProgress (3): 782/953 kB | 210/263 kB | 161/342 kBProgress (3): 782/953 kB | 215/263 kB | 161/342 kBProgress (3): 782/953 kB | 215/263 kB | 165/342 kBProgress (3): 782/953 kB | 219/263 kB | 165/342 kBProgress (3): 798/953 kB | 219/263 kB | 165/342 kBProgress (3): 798/953 kB | 219/263 kB | 169/342 kBProgress (3): 798/953 kB | 219/263 kB | 174/342 kBProgress (3): 798/953 kB | 223/263 kB | 174/342 kBProgress (3): 798/953 kB | 223/263 kB | 178/342 kBProgress (3): 814/953 kB | 223/263 kB | 178/342 kBProgress (3): 814/953 kB | 223/263 kB | 182/342 kBProgress (3): 814/953 kB | 223/263 kB | 186/342 kBProgress (3): 831/953 kB | 223/263 kB | 186/342 kBProgress (3): 831/953 kB | 223/263 kB | 191/342 kBProgress (3): 847/953 kB | 223/263 kB | 191/342 kBProgress (3): 863/953 kB | 223/263 kB | 191/342 kBProgress (3): 880/953 kB | 223/263 kB | 191/342 kBProgress (3): 880/953 kB | 240/263 kB | 191/342 kBProgress (3): 880/953 kB | 256/263 kB | 191/342 kBProgress (3): 880/953 kB | 263 kB | 191/342 kB    Progress (3): 880/953 kB | 263 kB | 195/342 kBProgress (3): 880/953 kB | 263 kB | 199/342 kBProgress (3): 896/953 kB | 263 kB | 199/342 kBProgress (3): 896/953 kB | 263 kB | 203/342 kB                                              Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.jar (263 kB at 406 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.16.6/micrometer-commons-1.16.6.jar
+Progress (2): 896/953 kB | 207/342 kBProgress (2): 913/953 kB | 207/342 kBProgress (2): 913/953 kB | 212/342 kBProgress (2): 913/953 kB | 216/342 kBProgress (2): 929/953 kB | 216/342 kBProgress (2): 929/953 kB | 220/342 kBProgress (2): 929/953 kB | 224/342 kBProgress (2): 945/953 kB | 224/342 kBProgress (2): 953 kB | 224/342 kB                                     Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.jar (953 kB at 1.4 MB/s)
+Progress (1): 241/342 kBProgress (1): 254/342 kBProgress (1): 270/342 kBProgress (1): 287/342 kBProgress (1): 303/342 kBProgress (2): 303/342 kB | 7.7/52 kBProgress (2): 303/342 kB | 8.2/52 kBProgress (2): 303/342 kB | 25/52 kB Progress (2): 303/342 kB | 41/52 kBProgress (2): 303/342 kB | 52 kB                                   Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-commons/1.16.6/micrometer-commons-1.16.6.jar (52 kB at 68 kB/s)
+Progress (1): 319/342 kBProgress (1): 336/342 kBProgress (1): 342 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-loader-tools/4.1.0/spring-boot-loader-tools-4.1.0.jar (342 kB at 416 kB/s)
+Progress (1): 0/1.1 MBProgress (1): 0/1.1 MBProgress (1): 0/1.1 MBProgress (1): 0/1.1 MBProgress (1): 0/1.1 MBProgress (1): 0/1.1 MBProgress (1): 0/1.1 MBProgress (1): 0/1.1 MBProgress (1): 0/1.1 MBProgress (1): 0/1.1 MBProgress (1): 0/1.1 MBProgress (1): 0/1.1 MBProgress (1): 0/1.1 MBProgress (1): 0/1.1 MBProgress (2): 0/1.1 MB | 1.4/84 kBProgress (2): 0/1.1 MB | 2.7/84 kBProgress (2): 0/1.1 MB | 4.1/84 kBProgress (2): 0/1.1 MB | 5.5/84 kBProgress (2): 0/1.1 MB | 5.5/84 kBProgress (2): 0/1.1 MB | 6.8/84 kBProgress (2): 0/1.1 MB | 6.8/84 kBProgress (2): 0/1.1 MB | 8.2/84 kBProgress (2): 0/1.1 MB | 9.6/84 kBProgress (2): 0/1.1 MB | 11/84 kB Progress (2): 0/1.1 MB | 12/84 kBProgress (2): 0/1.1 MB | 14/84 kBProgress (2): 0/1.1 MB | 15/84 kBProgress (2): 0/1.1 MB | 15/84 kBProgress (2): 0/1.1 MB | 15/84 kBProgress (2): 0/1.1 MB | 16/84 kBProgress (2): 0/1.1 MB | 16/84 kBProgress (2): 0/1.1 MB | 18/84 kBProgress (2): 0/1.1 MB | 19/84 kBProgress (2): 0/1.1 MB | 19/84 kBProgress (2): 0/1.1 MB | 21/84 kBProgress (2): 0/1.1 MB | 21/84 kBProgress (2): 0/1.1 MB | 22/84 kBProgress (2): 0/1.1 MB | 23/84 kBProgress (2): 0/1.1 MB | 23/84 kBProgress (2): 0/1.1 MB | 23/84 kBProgress (2): 0/1.1 MB | 23/84 kBProgress (2): 0/1.1 MB | 23/84 kBProgress (2): 0/1.1 MB | 23/84 kBProgress (2): 0/1.1 MB | 25/84 kBProgress (2): 0/1.1 MB | 25/84 kBProgress (2): 0/1.1 MB | 26/84 kBProgress (2): 0/1.1 MB | 26/84 kBProgress (2): 0/1.1 MB | 27/84 kBProgress (2): 0/1.1 MB | 27/84 kBProgress (2): 0/1.1 MB | 29/84 kBProgress (2): 0/1.1 MB | 29/84 kBProgress (2): 0/1.1 MB | 30/84 kBProgress (2): 0/1.1 MB | 31/84 kBProgress (2): 0/1.1 MB | 31/84 kBProgress (2): 0/1.1 MB | 31/84 kBProgress (2): 0/1.1 MB | 31/84 kBProgress (2): 0/1.1 MB | 33/84 kBProgress (2): 0/1.1 MB | 34/84 kBProgress (2): 0/1.1 MB | 34/84 kBProgress (2): 0/1.1 MB | 36/84 kBProgress (2): 0/1.1 MB | 37/84 kBProgress (2): 0/1.1 MB | 38/84 kBProgress (2): 0/1.1 MB | 38/84 kBProgress (2): 0/1.1 MB | 40/84 kBProgress (2): 0/1.1 MB | 40/84 kBProgress (2): 0/1.1 MB | 40/84 kBProgress (2): 0/1.1 MB | 41/84 kBProgress (2): 0.1/1.1 MB | 41/84 kBProgress (2): 0.1/1.1 MB | 42/84 kBProgress (2): 0.1/1.1 MB | 42/84 kBProgress (2): 0.1/1.1 MB | 44/84 kBProgress (2): 0.1/1.1 MB | 44/84 kBProgress (2): 0.1/1.1 MB | 45/84 kBProgress (2): 0.1/1.1 MB | 45/84 kBProgress (2): 0.1/1.1 MB | 47/84 kBProgress (2): 0.1/1.1 MB | 48/84 kBProgress (2): 0.1/1.1 MB | 48/84 kBProgress (2): 0.1/1.1 MB | 49/84 kBProgress (2): 0.1/1.1 MB | 51/84 kBProgress (2): 0.1/1.1 MB | 52/84 kBProgress (2): 0.1/1.1 MB | 52/84 kBProgress (2): 0.1/1.1 MB | 53/84 kBProgress (2): 0.1/1.1 MB | 55/84 kBProgress (2): 0.1/1.1 MB | 59/84 kBProgress (2): 0.1/1.1 MB | 63/84 kBProgress (2): 0.1/1.1 MB | 63/84 kBProgress (2): 0.1/1.1 MB | 63/84 kBProgress (2): 0.1/1.1 MB | 63/84 kBProgress (2): 0.1/1.1 MB | 63/84 kBProgress (2): 0.1/1.1 MB | 63/84 kBProgress (2): 0.1/1.1 MB | 67/84 kBProgress (2): 0.1/1.1 MB | 72/84 kBProgress (2): 0.1/1.1 MB | 72/84 kBProgress (2): 0.1/1.1 MB | 72/84 kBProgress (2): 0.1/1.1 MB | 76/84 kBProgress (2): 0.1/1.1 MB | 76/84 kBProgress (2): 0.1/1.1 MB | 80/84 kBProgress (2): 0.1/1.1 MB | 80/84 kBProgress (2): 0.1/1.1 MB | 84 kB                                   Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-observation/1.16.6/micrometer-observation-1.16.6.jar (84 kB at 69 kB/s)
+Progress (1): 0.1/1.1 MBProgress (1): 0.1/1.1 MBProgress (1): 0.1/1.1 MBProgress (1): 0.1/1.1 MBProgress (1): 0.1/1.1 MBProgress (1): 0.1/1.1 MBProgress (1): 0.1/1.1 MBProgress (1): 0.1/1.1 MBProgress (1): 0.1/1.1 MBProgress (1): 0.1/1.1 MBProgress (1): 0.1/1.1 MBProgress (1): 0.1/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.2/1.1 MBProgress (1): 0.3/1.1 MBProgress (1): 0.3/1.1 MBProgress (1): 0.3/1.1 MBProgress (1): 0.3/1.1 MBProgress (1): 0.3/1.1 MBProgress (1): 0.3/1.1 MBProgress (1): 0.3/1.1 MBProgress (1): 0.4/1.1 MBProgress (1): 0.4/1.1 MBProgress (1): 0.4/1.1 MBProgress (1): 0.4/1.1 MBProgress (1): 0.4/1.1 MBProgress (1): 0.4/1.1 MBProgress (1): 0.5/1.1 MBProgress (1): 0.5/1.1 MBProgress (1): 0.5/1.1 MBProgress (1): 0.5/1.1 MBProgress (1): 0.5/1.1 MBProgress (1): 0.5/1.1 MBProgress (1): 0.6/1.1 MBProgress (1): 0.6/1.1 MBProgress (1): 0.6/1.1 MBProgress (1): 0.6/1.1 MBProgress (1): 0.6/1.1 MBProgress (1): 0.6/1.1 MBProgress (1): 0.7/1.1 MBProgress (1): 0.7/1.1 MBProgress (1): 0.7/1.1 MBProgress (1): 0.7/1.1 MBProgress (1): 0.7/1.1 MBProgress (1): 0.7/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.8/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 0.9/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.0/1.1 MBProgress (1): 1.1 MB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.6.1/httpclient5-5.6.1.jar (1.1 MB at 521 kB/s)
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.0)
+
+2026-07-21T17:05:36.881+01:00  INFO 11340 --- [  restartedMain] c.l.s.ServerRoomsPlatformApplication     : Starting ServerRoomsPlatformApplication using Java 17.0.17 with PID 11340 (C:\Users\raed\IdeaProjects\leoni-backend\server-rooms-platform\target\classes started by raed in C:\Users\raed\IdeaProjects\leoni-backend\server-rooms-platform)
+2026-07-21T17:05:36.886+01:00  INFO 11340 --- [  restartedMain] c.l.s.ServerRoomsPlatformApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-07-21T17:05:36.955+01:00  INFO 11340 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-21T17:05:36.955+01:00  INFO 11340 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-21T17:05:37.760+01:00  INFO 11340 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-21T17:05:37.828+01:00  INFO 11340 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 5 JPA repository interfaces.
+2026-07-21T17:05:38.605+01:00  INFO 11340 --- [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-21T17:05:38.628+01:00  INFO 11340 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-21T17:05:38.628+01:00  INFO 11340 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-21T17:05:38.687+01:00  INFO 11340 --- [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1729 ms
+2026-07-21T17:05:38.868+01:00  INFO 11340 --- [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-21T17:05:38.972+01:00  INFO 11340 --- [  restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-21T17:05:39.594+01:00  INFO 11340 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-21T17:05:39.645+01:00  INFO 11340 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-21T17:05:39.962+01:00  INFO 11340 --- [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5b85303a
+2026-07-21T17:05:39.965+01:00  INFO 11340 --- [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-21T17:05:40.161+01:00  INFO 11340 --- [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/leoni_server_rooms]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.4
+	Default catalog/schema: leoni_server_rooms/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-21T17:05:41.807+01:00  INFO 11340 --- [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-21T17:05:41.958+01:00  INFO 11340 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-21T17:05:42.029+01:00  INFO 11340 --- [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-21T17:05:42.388+01:00  WARN 11340 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-21T17:05:42.494+01:00  WARN 11340 --- [  restartedMain] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 94e1903c-3b9a-452f-bdbd-d86542c6fe70
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-07-21T17:05:42.504+01:00  INFO 11340 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-07-21T17:05:43.042+01:00  INFO 11340 --- [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-21T17:05:43.049+01:00  INFO 11340 --- [  restartedMain] c.l.s.ServerRoomsPlatformApplication     : Started ServerRoomsPlatformApplication in 6.662 seconds (process running for 7.311)
+Hibernate: 
+    select
+        sr1_0.id,
+        sr1_0.alert_level,
+        sr1_0.code,
+        sr1_0.created_at,
+        sr1_0.location,
+        sr1_0.name 
+    from
+        server_rooms sr1_0 
+    where
+        sr1_0.code=?
+Hibernate: 
+    select
+        sr1_0.id,
+        sr1_0.alert_level,
+        sr1_0.code,
+        sr1_0.created_at,
+        sr1_0.location,
+        sr1_0.name 
+    from
+        server_rooms sr1_0 
+    where
+        sr1_0.code=?
+Hibernate: 
+    select
+        sr1_0.id,
+        sr1_0.alert_level,
+        sr1_0.code,
+        sr1_0.created_at,
+        sr1_0.location,
+        sr1_0.name 
+    from
+        server_rooms sr1_0 
+    where
+        sr1_0.code=?
+Hibernate: 
+    select
+        sr1_0.id,
+        sr1_0.alert_level,
+        sr1_0.code,
+        sr1_0.created_at,
+        sr1_0.location,
+        sr1_0.name 
+    from
+        server_rooms sr1_0 
+    where
+        sr1_0.code=?
+Hibernate: 
+    select
+        sr1_0.id,
+        sr1_0.alert_level,
+        sr1_0.code,
+        sr1_0.created_at,
+        sr1_0.location,
+        sr1_0.name 
+    from
+        server_rooms sr1_0 
+    where
+        sr1_0.code=?
+Hibernate: 
+    select
+        sr1_0.id,
+        sr1_0.alert_level,
+        sr1_0.code,
+        sr1_0.created_at,
+        sr1_0.location,
+        sr1_0.name 
+    from
+        server_rooms sr1_0 
+    where
+        sr1_0.code=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.full_name,
+        u1_0.password,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        sr1_0.id,
+        sr1_0.alert_level,
+        sr1_0.code,
+        sr1_0.created_at,
+        sr1_0.location,
+        sr1_0.name 
+    from
+        server_rooms sr1_0
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        s1_0.id 
+    from
+        sensors s1_0 
+    where
+        s1_0.room_id=? 
+        and s1_0.label=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        sr1_0.id,
+        sr1_0.alert_level,
+        sr1_0.code,
+        sr1_0.created_at,
+        sr1_0.location,
+        sr1_0.name 
+    from
+        server_rooms sr1_0 
+    where
+        sr1_0.code=?
+Hibernate: 
+    select
+        i1_0.id 
+    from
+        incidents i1_0 
+    where
+        i1_0.room_id=? 
+        and i1_0.title=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        sr1_0.id,
+        sr1_0.alert_level,
+        sr1_0.code,
+        sr1_0.created_at,
+        sr1_0.location,
+        sr1_0.name 
+    from
+        server_rooms sr1_0 
+    where
+        sr1_0.code=?
+Hibernate: 
+    select
+        i1_0.id 
+    from
+        incidents i1_0 
+    where
+        i1_0.room_id=? 
+        and i1_0.title=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        sr1_0.id,
+        sr1_0.alert_level,
+        sr1_0.code,
+        sr1_0.created_at,
+        sr1_0.location,
+        sr1_0.name 
+    from
+        server_rooms sr1_0 
+    where
+        sr1_0.code=?
+Hibernate: 
+    select
+        i1_0.id 
+    from
+        incidents i1_0 
+    where
+        i1_0.room_id=? 
+        and i1_0.title=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        sr1_0.id,
+        sr1_0.alert_level,
+        sr1_0.code,
+        sr1_0.created_at,
+        sr1_0.location,
+        sr1_0.name 
+    from
+        server_rooms sr1_0 
+    where
+        sr1_0.code=?
+Hibernate: 
+    select
+        i1_0.id 
+    from
+        incidents i1_0 
+    where
+        i1_0.room_id=? 
+        and i1_0.title=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        sr1_0.id,
+        sr1_0.alert_level,
+        sr1_0.code,
+        sr1_0.created_at,
+        sr1_0.location,
+        sr1_0.name 
+    from
+        server_rooms sr1_0 
+    where
+        sr1_0.code=?
+Hibernate: 
+    select
+        i1_0.id 
+    from
+        incidents i1_0 
+    where
+        i1_0.room_id=? 
+        and i1_0.title=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        an1_0.id 
+    from
+        notifications an1_0 
+    where
+        an1_0.title=? 
+        and an1_0.related_room_id=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        an1_0.id 
+    from
+        notifications an1_0 
+    where
+        an1_0.title=? 
+        and an1_0.related_room_id=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        an1_0.id 
+    from
+        notifications an1_0 
+    where
+        an1_0.title=? 
+        and an1_0.related_room_id=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        an1_0.id 
+    from
+        notifications an1_0 
+    where
+        an1_0.title=? 
+        and an1_0.related_room_id=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        an1_0.id 
+    from
+        notifications an1_0 
+    where
+        an1_0.title=? 
+        and an1_0.related_room_id=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        an1_0.id 
+    from
+        notifications an1_0 
+    where
+        an1_0.title=? 
+        and an1_0.related_room_id=? 
+    fetch
+        first ? rows only
