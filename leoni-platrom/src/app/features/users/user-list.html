@@ -1,0 +1,25 @@
+<div class="users-page">
+  <div class="page-header">
+    <h1>Users</h1>
+    <button class="btn-primary">Add User</button>
+  </div>
+
+  <div class="users-table">
+    <div class="table-header">
+      <span>Name</span>
+      <span>Email</span>
+      <span>Role</span>
+      <span>Assigned Rooms</span>
+      <span>Actions</span>
+    </div>
+
+    <div class="table-row" *ngFor="let user of users">
+      <span>{{ user.fullName }}</span>
+      <span>{{ user.email }}</span>
+      <span class="role-tag">{{ user.role }}</span>
+      <span>{{ user.assignedRoomIds.join(', ') }}</span>
+      <button (click)="deleteUser(user.id)">Delete</button>
+    </div>
+
+  </div>
+</div>

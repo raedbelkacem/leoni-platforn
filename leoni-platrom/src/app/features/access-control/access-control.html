@@ -1,0 +1,38 @@
+<!-- Current Occupants -->
+<div class="section">
+  <h2>Currently Inside</h2>
+  <div class="access-table">
+    <div class="table-header occupants-grid">
+      <span>Name</span>
+      <span>Role</span>
+      <span>Room</span>
+      <span>Entered At</span>
+    </div>
+    <div class="table-row occupants-grid" *ngFor="let occupant of currentOccupants">
+      <span>{{ occupant.fullName }}</span>
+      <span class="role-tag">{{ occupant.role }}</span>
+      <span class="room-tag">{{ occupant.room }}</span>
+      <span class="date">{{ occupant.enteredAt | date:'dd/MM/yyyy HH:mm' }}</span>
+    </div>
+  </div>
+</div>
+
+<!-- Access Logs -->
+<div class="section">
+  <h2>Access Logs</h2>
+  <div class="access-table">
+    <div class="table-header logs-grid">
+      <span>Name</span>
+      <span>Room</span>
+      <span>Action</span>
+      <span>Timestamp</span>
+    </div>
+    <div class="table-row logs-grid" *ngFor="let log of accessLogs">
+      <span>{{ log.fullName }}</span>
+      <span class="room-tag">{{ log.room }}</span>
+      <span class="action-tag" [class.entry]="log.action === 'ENTRY'"
+            [class.exit]="log.action === 'EXIT'">{{ log.action }}</span>
+      <span class="date">{{ log.timestamp | date:'dd/MM/yyyy HH:mm' }}</span>
+    </div>
+  </div>
+</div>

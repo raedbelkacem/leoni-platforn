@@ -1,0 +1,52 @@
+<!-- Floating Button -->
+<div class="chat-fab" (click)="toggleChat()" [class.open]="isOpen">
+  <span *ngIf="!isOpen">💬</span>
+  <span *ngIf="isOpen">✕</span>
+</div>
+
+<!-- Chat Window -->
+<div class="chat-window" [class.visible]="isOpen">
+
+  <!-- Header -->
+  <div class="chat-header">
+    <div class="chat-header-info">
+      <div class="bot-avatar">🤖</div>
+      <div>
+        <div class="bot-name">Leoni Assistant</div>
+        <div class="bot-status">● Online</div>
+      </div>
+    </div>
+    <button class="close-btn" (click)="toggleChat()">✕</button>
+  </div>
+
+  <!-- Messages -->
+  <div class="chat-messages" #messagesContainer>
+    <div class="message" *ngFor="let msg of messages"
+         [class.user]="msg.role === 'user'"
+         [class.bot]="msg.role === 'bot'">
+      <div class="message-bubble">{{ msg.text }}</div>
+      <div class="message-time">{{ msg.time }}</div>
+    </div>
+
+    <!-- Typing Indicator -->
+    <div class="message bot" *ngIf="isTyping">
+      <div class="message-bubble typing">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Input -->
+  <div class="chat-input">
+    <input
+      type="text"
+      [(ngModel)]="userInput"
+      (keydown)="onEnter($event)"
+      placeholder="Type a message..."
+    />
+    <button class="send-btn" (click)="sendMessage()">➤</button>
+  </div>
+
+</div>

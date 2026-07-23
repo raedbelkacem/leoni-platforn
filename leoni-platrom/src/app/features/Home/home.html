@@ -1,0 +1,93 @@
+<div class="home-page">
+
+  <!-- Navbar -->
+  <nav class="home-nav">
+    <div class="home-nav-logo">Leoni Platform</div>
+    <div class="home-nav-links">
+      <a href="#features">Features</a>
+      <a href="#stats">Stats</a>
+      <a routerLink="/login" class="login-link">Sign In</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">Leoni Server Rooms Platform</div>
+      <h1>Monitor. Manage.<br><span>Stay in Control.</span></h1>
+      <p>
+        A complete digital platform for managing Leoni's server rooms —
+        real-time monitoring, AI-powered assistance, and smart access control
+        all in one place.
+      </p>
+      <div class="hero-actions">
+        <a routerLink="/login" class="btn-primary">Get Started</a>
+        <a href="#features" class="btn-secondary">Learn More</a>
+      </div>
+      <div class="hero-rooms">
+        <span *ngFor="let room of ['SBTN','TNM','TN4','TN3','MAC','MAE']"
+              class="room-pill">{{ room }}</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="visual-card">
+        <div class="visual-header">
+          <span>TN4 — Live Status</span>
+          <span class="visual-badge critical">CRITICAL</span>
+        </div>
+        <div class="visual-metrics">
+          <div class="metric">
+            <span class="metric-label">Temperature</span>
+            <span class="metric-value critical">31°C</span>
+          </div>
+          <div class="metric">
+            <span class="metric-label">Humidity</span>
+            <span class="metric-value warning">65%</span>
+          </div>
+          <div class="metric">
+            <span class="metric-label">Electrical</span>
+            <span class="metric-value normal">220V</span>
+          </div>
+        </div>
+        <div class="visual-alert">
+          High temperature detected — AI assistant notified manager
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats-section" id="stats">
+    <div class="stat-item" *ngFor="let stat of stats">
+      <div class="stat-value">{{ stat.value }}</div>
+      <div class="stat-label">{{ stat.label }}</div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features-section" id="features">
+    <h2>Everything you need to manage server rooms</h2>
+    <p>Built for Leoni's operations team — from technicians to managers</p>
+    <div class="features-grid">
+      <div class="feature-card" *ngFor="let feature of features">
+        <div class="feature-icon">{{ feature.icon }}</div>
+        <h3>{{ feature.title }}</h3>
+        <p>{{ feature.description }}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <h2>Ready to get started?</h2>
+    <p>Sign in to access your server room dashboard</p>
+    <a routerLink="/login" class="btn-primary">Sign In to Platform</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="home-footer">
+    <div>Leoni Server Rooms Platform</div>
+    <div>2026 Leoni. All rights reserved.</div>
+  </footer>
+
+</div>

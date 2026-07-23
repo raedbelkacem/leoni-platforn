@@ -1,0 +1,74 @@
+
+> leoni-platform@0.0.0 start
+> ng serve
+
+> Building...
+√ Building...
+Initial chunk files | Names             |  Raw size
+main.js             | main              |  24.00 kB | 
+styles.css          | styles            |  23.06 kB | 
+chunk-X73Q2IPY.js   | -                 |   2.65 kB | 
+chunk-PZ5AY32C.js   | -                 | 234 bytes | 
+
+                    | Initial total     |  49.94 kB
+
+Lazy chunk files    | Names             |  Raw size
+chunk-MCTIDJYE.js   | room-detail       |  16.73 kB | 
+chunk-CIPWCHOT.js   | home              |  14.34 kB | 
+chunk-NJS67POR.js   | notification-list |  13.46 kB | 
+chunk-5WTFUDQE.js   | incident-list     |  10.76 kB | 
+chunk-G3MVMWOX.js   | room-list         |   9.98 kB | 
+chunk-LPST2QAK.js   | access-control    |   9.20 kB | 
+chunk-OKUVD7G6.js   | dashboard         |   8.93 kB | 
+chunk-W64ASG4V.js   | login             |   7.74 kB | 
+chunk-M3ZLXM2T.js   | user-list         |   6.29 kB | 
+
+Application bundle generation complete. [4.646 seconds] - 2026-07-21T15:02:43.359Z
+
+Watch mode enabled. Watching for file changes...
+NOTE: Raw file sizes do not reflect development server per-request transformations.
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m4200[22m/[39m
+> Changes detected. Rebuilding...
+√ Changes detected. Rebuilding...
+Initial chunk files | Names         | Raw size
+main.js             | main          | 24.30 kB | 
+
+Lazy chunk files    | Names         | Raw size
+chunk-2CCL3ATB.js   | incident-list | 10.05 kB | 
+
+Application bundle generation complete. [3.411 seconds] - 2026-07-21T15:58:51.394Z
+
+Page reload sent to client(s).
+> Changes detected. Rebuilding...
+√ Changes detected. Rebuilding...
+Initial chunk files | Names             | Raw size
+main.js             | main              | 24.30 kB | 
+
+Lazy chunk files    | Names             | Raw size
+chunk-ITRI4WIK.js   | notification-list | 12.86 kB | 
+
+Application bundle generation complete. [0.548 seconds] - 2026-07-21T15:59:11.674Z
+
+Page reload sent to client(s).
+> Changes detected. Rebuilding...
+√ Changes detected. Rebuilding...
+Initial chunk files | Names       | Raw size
+main.js             | main        | 24.30 kB | 
+
+Lazy chunk files    | Names       | Raw size
+chunk-T45N4AOP.js   | room-detail | 16.72 kB | 
+
+Application bundle generation complete. [1.404 seconds] - 2026-07-21T15:59:48.117Z
+
+Page reload sent to client(s).
+> Changes detected. Rebuilding...
+√ Changes detected. Rebuilding...
+Initial chunk files | Names       | Raw size
+main.js             | main        | 24.30 kB | 
+
+Lazy chunk files    | Names       | Raw size
+chunk-GLN5IKSY.js   | room-detail | 15.07 kB | 
+
+Application bundle generation complete. [0.431 seconds] - 2026-07-21T16:01:25.303Z
+
+Page reload sent to client(s).

@@ -1,0 +1,46 @@
+<div class="rooms-page">
+
+  <div class="page-header">
+    <h1>Rooms</h1>
+
+    <input
+      type="text"
+      placeholder="Search room..."
+      [(ngModel)]="searchTerm">
+  </div>
+
+  <div class="rooms-table">
+
+    <div class="table-header">
+      <span>Code</span>
+      <span>Name</span>
+      <span>Location</span>
+      <span>Alert Level</span>
+      <span>Action</span>
+    </div>
+
+    <div
+      class="table-row"
+      *ngFor="let room of filteredRooms">
+
+      <span>{{ room.code }}</span>
+      <span>{{ room.name }}</span>
+      <span>{{ room.location }}</span>
+
+      <span>
+        <span
+          class="badge"
+          [ngClass]="room.alertLevel.toLowerCase()">
+
+          {{ room.alertLevel }}
+
+        </span>
+      </span>
+
+      <button [routerLink]="['/rooms', room.id]">View</button>
+
+    </div>
+
+  </div>
+
+</div>
